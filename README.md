@@ -12,7 +12,7 @@ WebAssembly (WASM), and run fully in your web browser (there is no server backen
 offline once loaded).
 
 > [!TIP]
-> You can [try out the tools in your browser](https://emarsden.github.io/pssh-box-wasm/). 
+> You can [try out the tools in your browser](https://sidimad-tv.github.io/Pssssh-box/). 
 
 
 PSSH boxes are used:
