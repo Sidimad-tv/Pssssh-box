@@ -70,4 +70,4 @@ build_pyodide:
 # Need a non-release build for symbols
 twiggy:
    wasm-pack build --dev --target web
-   twiggy top pkg/pssh_box_wasm_bg.wasm -n 40
+   twiggy top pkg/Pssssh-box_bg.wasm -n 40
