@@ -11,7 +11,7 @@ wasm:
 
 serve:
     #!/usr/bin/env bash
-    DIST=`mktemp -d /tmp/pssh-box-wasmXXXXX`
+    DIST=`mktemp -d /tmp/Pssssh-boxXXXXX`
     cp -r www-zola/* $DIST
     wasm-pack build --release --target web
     cp -r pkg $DIST/static
