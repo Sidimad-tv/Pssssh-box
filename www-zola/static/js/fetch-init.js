@@ -1,4 +1,4 @@
-import init, { fetch_pssh_data, code_version } from "../pkg/pPssssh-box.js";
+import init, { fetch_pssh_data, code_version } from "../pkg/Pssssh-box.js";
 init().then(() => {
     document.getElementById("version").innerHTML = code_version();
 });
