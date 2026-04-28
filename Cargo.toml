@@ -3,7 +3,7 @@ name = "pssh-box-wasm"
 version = "0.1.7"
 authors = ["Eric Marsden <eric.marsden@risk-engineering.org>"]
 description = "Parsing and printing PSSH boxes, in WebAssembly."
-repository = "https://github.com/emarsden/pssh-box-wasm/"
+repository = "https://sidimad-tv.github.io/Pssssh-box/"
 license = "MIT"
 edition = "2021"
 
