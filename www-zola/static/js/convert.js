@@ -1,4 +1,4 @@
-import init, { code_version } from "../pkg/pssh_box_wasm.js";
+import init, { code_version } from "../pkg/Pssssh-box.js";
 init().then(() => {
     document.getElementById("version").innerHTML = code_version();
 });
