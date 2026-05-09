@@ -1,4 +1,4 @@
-base_url = "https://sidimad-tv.github.io/psshbox/"
+base_url = "https://sidimad-tv.github.io/Pssssh-box/"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
