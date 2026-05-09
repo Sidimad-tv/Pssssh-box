@@ -128,6 +128,5 @@ log visits (no web analytics, no cookies), but GitHub pages provides anonymized 
 
 
 
-<script defer src="../pyodide/pyodide.js"></script>
+<script defer src="https://cdn.jsdelivr.net/pyodide/v0.29.3/full/pyodide.js"></script>
 <script type="module" src="../js/get-license.js"></script>
-

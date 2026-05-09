@@ -151,5 +151,5 @@ device is defined. It works for both Widevine and Playready CDM devices.
 loaded, it will run fully offline.
 
 
-<script defer src="../pyodide/pyodide.js"></script>
+<script defer src="https://cdn.jsdelivr.net/pyodide/v0.29.3/full/pyodide.js"></script>
 <script type="module" src="../js/convert.js"></script>

@@ -50,9 +50,27 @@ const myPackages = [
     "https://files.pythonhosted.org/packages/aa/a2/27fea39af627c0ce5dbf6108bf969ea8f5fc9376d29f11282a80e3426f1d/pymp4-1.4.0-py3-none-any.whl",
     "https://files.pythonhosted.org/packages/53/71/5d853cf6c3c919c2de67c329f41d3be59468213d95e8ef7b3d4207843475/pyplayready-0.4.4-py3-none-any.whl"
 ]
-let pyodide = await loadPyodide({ packages: myPackages });
-console.log("Pyodide + pywidevine loaded");
-document.getElementById("loading").style.display = "none";
+async function getLoadPyodide() {
+    for (let i = 0; i < 200; i++) {
+        if (globalThis.loadPyodide) {
+            return globalThis.loadPyodide;
+        }
+        await new Promise(resolve => setTimeout(resolve, 100));
+    }
+    throw new Error("Pyodide loader did not become available");
+}
+
+let pyodide;
+try {
+    pyodide = await (await getLoadPyodide())({ packages: myPackages });
+    console.log("Pyodide + pywidevine loaded");
+    document.getElementById("loading").style.display = "none";
+} catch (e) {
+    console.error(e);
+    document.getElementById("loading").innerHTML =
+        "<strong>Failed to load Pyodide packages.</strong><pre>" + e + "</pre>";
+    throw e;
+}
 pyodide.setDebug(true);
 
 const to_WVD=`
