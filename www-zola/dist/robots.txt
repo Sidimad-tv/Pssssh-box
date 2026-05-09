@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://sidimad-tv.github.io/psshbox/sitemap.xml
