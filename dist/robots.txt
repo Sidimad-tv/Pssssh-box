@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-Allow: /
-Sitemap: https://sidimad-tv.github.io/Pssssh-box/sitemap.xml
