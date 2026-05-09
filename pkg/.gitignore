@@ -1,0 +1,8 @@
+!.gitignore
+!LICENSE
+!README.md
+!package.json
+!pssh_box_wasm.d.ts
+!pssh_box_wasm.js
+!pssh_box_wasm_bg.wasm
+!pssh_box_wasm_bg.wasm.d.ts
