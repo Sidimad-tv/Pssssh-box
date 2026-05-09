@@ -1,4 +1,4 @@
-import init, { generate_widevine_pssh_b64, code_version } from "../pkg/Pssssh-box.js";
+import init, { generate_widevine_pssh_b64, code_version } from "../pkg/pssh_box_wasm.js";
 init().then(() => {
     document.getElementById("version").innerHTML = code_version();
 });

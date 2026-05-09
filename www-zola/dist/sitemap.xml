@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://sidimad-tv.github.io/Pssssh-box/</loc>
+        <loc>https://sidimad-tv.github.io/sidimadtv/</loc>
     </url>
     <url>
-        <loc>https://sidimad-tv.github.io/Pssssh-box/convert/</loc>
+        <loc>https://sidimad-tv.github.io/sidimadtv/convert/</loc>
     </url>
     <url>
-        <loc>https://sidimad-tv.github.io/Pssssh-box/decode/</loc>
+        <loc>https://sidimad-tv.github.io/sidimadtv/decode/</loc>
     </url>
     <url>
-        <loc>https://sidimad-tv.github.io/Pssssh-box/fetch-init/</loc>
+        <loc>https://sidimad-tv.github.io/sidimadtv/fetch-init/</loc>
     </url>
     <url>
-        <loc>https://sidimad-tv.github.io/Pssssh-box/generate/</loc>
+        <loc>https://sidimad-tv.github.io/sidimadtv/generate/</loc>
     </url>
     <url>
-        <loc>https://sidimad-tv.github.io/Pssssh-box/get-license/</loc>
+        <loc>https://sidimad-tv.github.io/sidimadtv/get-license/</loc>
     </url>
 </urlset>
